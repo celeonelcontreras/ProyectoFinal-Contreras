@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Presupuesto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+    <script src="../js/costos.js"></script>
+    <script defer src="../js/presupuestado.js"></script>
+</head>
+<body>
+    <div class="panel-desgloce">
+        <h2>Proyecto Presupuestado</h2>
+        <p>A continuación encontrarás un resumen del presupuesto solicitado.</p>
+        <hr>
+        <p class="total">Total del Presupuesto: $ <span class="label-total"></span></p>
+        <p>Tipo de Vivienda: <span class="label-vivienda"></span></p>
+        <p>Metros Cuadrados: <span class="label-metros"></span> m2</p>
+        <p>Costo del material por m2: $ <span class="label-costo-metros"></span></p>
+        <p>Cantidad de bocas: <span class="label-bocas"></span></p>
+        <p>Costo del material por bocas: $ <span class="label-costo-bocas"></span></p>
+        <p>Costo Mano de Obra: $ <span class="label-mano-obra"></span></p>
+
+        <div class="centrar-elementos">
+            <button class="button-contratar" type="button">Contratar</button>
+        </div>
+
+        <div class="centrar-elementos">
+            <button class="button-volver" type="button">Volver</button>
+        </div>
+    </div>    
+</body>
+</html>

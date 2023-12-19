@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "descripcion": "Residencial Nueva",
+      "manoObra": 1000
+    },
+    {
+      "id": 2,
+      "descripcion": "Residencial Existente",
+      "manoObra": 400
+    },
+    {
+      "id": 3,
+      "descripcion": "Negocio Nuevo",
+      "manoObra": 1200
+    },
+    {
+      "id": 4,
+      "descripcion": "Negocio Existente",
+      "manoObra": 600
+    }
+  ]

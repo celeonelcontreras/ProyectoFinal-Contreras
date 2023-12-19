@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Presupuestos Proyecto Eléctrico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/costos.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <h1>Presupuesto para Proyecto Eléctrico</h1>
+    <div class="panel-presupuesto ">
+        <h2>¡Calculemos tu presupuesto!</h2>
+        <p>Para poder conocer la estimación del presupuesto, proporciona los siguientes datos:</p>
+
+        <label for="tasaInteres">¿Cuál es el tipo de vivienda?</label>
+        <select id="selectVivienda">
+            <option disabled selected>Elige aquí...</option>
+        </select>
+
+        <label for="metrosCuadrados">¿Cuántos metros cuadrados tiene la vivienda?</label>
+        <input type="number" id="metrosCuadrados" placeholder="Metros cuadrados" required>
+        
+        <label for="cantidadBocas">¿Cuántas bocas tiene la vivienda?</label>
+        <input type="number" id="cantidadBocas" placeholder="Ingresa cantidad de bocas" required>
+        
+        
+        <button class="button-calcular" type="button">Calcular</button>
+    </div>
+</body>
+</html>
